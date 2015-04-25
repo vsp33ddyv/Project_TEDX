@@ -29,13 +29,14 @@ header{
 	padding-right:1%;
 	padding-bottom: 0.5%;
 	padding-top:0.5%;
-	width:65%
+	width:65%;
 }
 
 #innernav{
 	position:relative;
 	float:left;
 	display: inline-block;
+	width:100%;
 }
 
 #breadcrumbs{
@@ -44,7 +45,7 @@ header{
 	display:inline-block;
 	text-decoration:none;
 	color:white;
-	margin-left:2%;
+	margin-left:5%;
 }
 
 #login{
