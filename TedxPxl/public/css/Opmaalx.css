@@ -15,6 +15,11 @@ iframe{
 	margin-top:2.5%;
 	width:100%;
 }
+
+li{
+	list-style-type:none;
+}
+
 #frame{
 	margin-left:10%;
 	margin-right:10%;
@@ -26,7 +31,6 @@ iframe{
 }
 
 #innerbalk{
-	
 	background-color:#ee3223;
 	color:white;
 	font-size:12pt;
@@ -68,9 +72,10 @@ iframe{
 	margin-left:0%;
 }
 
-#logonav{
-	position:relative;
+#social{
+	position:absolute;
 	float:left;
+	display:block;
 }
 .hoofdlink{
 	/*
@@ -103,6 +108,7 @@ a.hoofdlink:active{
 a.innerlinks:active{
 	font-weight:bold;
 }
+
 
 
 
