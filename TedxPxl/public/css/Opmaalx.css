@@ -6,13 +6,13 @@ body{
 }
 
 header{
-	width:84%;
+	margin-left:16%;
 	margin-bottom:2%;
 }
 
 iframe{
 	position:relative;
-	margin-top:2.5%;
+	margin-top:0.5%;
 	width:100%;
 }
 
@@ -21,7 +21,9 @@ li{
 }
 
 #frame{
-	margin-left:10%;
+	position:relative;
+	float:center;
+	margin-left:16%;
 	margin-right:10%;
 }
 #hoofdnav{
@@ -73,10 +75,17 @@ li{
 }
 
 #social{
-	position:absolute;
-	float:left;
+	position:relative;
+	float:right;
+	display:block;
+	margin-top:4%;
+	margin-right:7%;
+}
+#logonav{
+	width:28px;
 	display:block;
 }
+
 .hoofdlink{
 	/*
 	niet 100% rond moet nog mee gespeeld worden
