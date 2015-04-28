@@ -1,0 +1,10 @@
+user_id
+user_login
+user_email
+user_pass
+first_name
+last_name
+street
+city
+phone
+photo
