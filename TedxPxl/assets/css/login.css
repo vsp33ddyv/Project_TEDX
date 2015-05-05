@@ -1,4 +1,20 @@
-h1{
+#login{
+	width: 540px;
+	position: absolute;
+	top: 60px;
+	left: 50%;
+	margin-left: -270px;
+	background-color: #fff;
+	box-shadow: 0 3px 5px rgba(0,0,0,.3);
+	border-radius: 3px;
+}
+
+
+
+
+
+
+/*h1{
 	font-size: 18px;
 }
 
@@ -29,4 +45,4 @@ h1{
 	float:right;
 	padding: 4%;
 	margin-right:8%;
-}
+}*/

@@ -4,7 +4,7 @@
 		<title>TedPxl</title>
 		<meta charset="UTF-8" />
 		<link href="<?= base_url();?>assets/css/Opmaalx.css" rel="stylesheet" type="text/css" />
-		
+		<link href="<?= base_url();?>assets/css/login.css" rel="stylesheet" type="text/css" />
 		<!-- css werkt nier, vindt map niet-->
 		<script></script>
 	</head>
@@ -34,22 +34,20 @@
 			</nav>
 		</div>
 		
-		<div id="frame">
+	<div id="frame">
 		<div id="innerbalk">
 			<nav id="innernav">
 				<a class="innerlinks" href="">nl </a>||
 				<a class="innerlinks" href="">eng</a>
 				<a id="breadcrumbs" href="">breadcrumbs</a>
-				<a id="login" href="">log in</a>
+				<a id="login" href="./loginForm.php" target="blank">log in</a>
 			</nav>
 		</div>
 		
 		<!-- midden scherm 	-->
 			<iframe>
 			</iframe>
-			
-	
-		</div>
+		
 			<footer>
 			&copy;Britt Nida Julio Jasper
 		</footer>

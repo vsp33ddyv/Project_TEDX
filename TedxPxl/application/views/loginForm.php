@@ -3,7 +3,7 @@
 	<head>
 		<title>TedPxl</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="public/css/login.css" />
+		<link href="<?= base_url();?>assets/css/login.css" rel="stylesheet" type="text/css" />
 		<!-- css werkt -->
 		<script></script>
 	</head>
