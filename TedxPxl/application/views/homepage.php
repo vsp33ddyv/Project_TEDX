@@ -3,8 +3,9 @@
 	<head>
 		<title>TedPxl</title>
 		<meta charset="UTF-8" />
-		<link rel="stylesheet" type="text/css" href="public/css/Opmaalx.css" />
-		<!-- css werkt -->
+		<link href="<?= base_url();?>assets/css/Opmaalx.css" rel="stylesheet" type="text/css" />
+		
+		<!-- css werkt nier, vindt map niet-->
 		<script></script>
 	</head>
 	

@@ -63,7 +63,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> ''mysql:host=',
+	'dsn'	=> 'mysql:host=localhost:8080;dbname=tedxpxl',
 	'hostname' => 'localhost:8080',
 	'username' => 'root',
 	'password' => 'root',
