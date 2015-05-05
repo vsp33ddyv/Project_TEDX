@@ -33,26 +33,37 @@
 					<a href="https://twitter.com/"><img src="assets/img/twittlogo.png" alt="twitterlogo"/></a>
 			</nav>
 		</div>
-		
+		<section id="login">
+			<section>
+				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
+				<hr>
+				<form>
+				<label>E-mail</label>
+				<input type="email" size="50" />
+				</br>
+				<label>Passwoord</label>
+				<input type="password size="50"/>
+				</form>
+			</section>
+		</section>
 	<div id="frame">
 		<div id="innerbalk">
 			<nav id="innernav">
 				<a class="innerlinks" href="">nl </a>||
 				<a class="innerlinks" href="">eng</a>
 				<a id="breadcrumbs" href="">breadcrumbs</a>
-				<a id="login" href="./loginForm.php" target="blank">log in</a>
+				<a id="loginlink" href="">log in</a>
 			</nav>
 		</div>
-		
 		<!-- midden scherm 	-->
 			<iframe>
 			</iframe>
-		
+		</div>
 			<footer>
 			&copy;Britt Nida Julio Jasper
 		</footer>
 		
-	</div>
+
 	</body>
 	
 	
