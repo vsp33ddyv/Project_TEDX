@@ -12,7 +12,7 @@
 	<body>
 	<div>
 		<header>
-			<img id="logo" src="public/img/logo.png" alt="logo"/>
+			<img id="logo" src="assets/img/logo.png" alt="logo"/>
 			<nav id="hoofdnav">
 				<a class="hoofdlink" href="http://www.google.be">Home</a>
 				<a class="hoofdlink" href="http://www.google.be">Events</a>
@@ -21,16 +21,16 @@
 				<a class="hoofdlink" href="http://www.google.com">Contact</a>
 			</nav>
 			<input id="search" type="text"  autocomplete="on" />
-			<img src="public/img/search.png" alt="searchlogo">
+			<img src="assets/img/search.png" alt="searchlogo">
 		</header>
 		<div id="kalender">
 			<p>hier komt kalender?</p>
 		</div>
 		<div id="social">
 			<nav id="logonav">
-					<a href="https://www.facebook.com/"><img src="public/img/fbRed.png" alt="facebooklogo"/>
-					<a href="https://plus.google.com/"><img src="public/img/gplogo.png" alt="googlepluslogo"/></a>
-					<a href="https://twitter.com/"><img src="public/img/twittlogo.png" alt="twitterlogo"/></a>
+					<a href="https://www.facebook.com/"><img src="assets/img/fbRed.png" alt="facebooklogo"/>
+					<a href="https://plus.google.com/"><img src="assets/img/gplogo.png" alt="googlepluslogo"/></a>
+					<a href="https://twitter.com/"><img src="assets/img/twittlogo.png" alt="twitterlogo"/></a>
 			</nav>
 		</div>
 		
