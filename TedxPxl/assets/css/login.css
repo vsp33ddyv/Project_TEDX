@@ -7,12 +7,26 @@
 	background-color: #fff;
 	box-shadow: 0 3px 5px rgba(0,0,0,.3);
 	border-radius: 3px;
+	z-index:999;
 }
 
+#innerlogin{
+	margin:2%;
+}
 
+#buttonlogin{
+	margin:2%;
+	background-color:#ee3223;
+	border:none;
+	color: white;
+	font-weight: bold;
+	padding:2%;
+}
 
-
-
+.tabel{
+	width:50%;
+	
+}
 
 /*h1{
 	font-size: 18px;

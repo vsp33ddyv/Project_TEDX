@@ -16,7 +16,7 @@
 			<nav id="hoofdnav">
 				<a class="hoofdlink" href="http://www.google.be">Home</a>
 				<a class="hoofdlink" href="http://www.google.be">Events</a>
-				<a class="hoofdlink" href="http://www.google.be">Blog</a>
+				<a class="hoofdlink" href="http://www.google.be">Forum</a>
 				<a class="hoofdlink" href="http://www.google.be">About</a>
 				<a class="hoofdlink" href="http://www.google.com">Contact</a>
 			</nav>
@@ -34,15 +34,15 @@
 			</nav>
 		</div>
 		<section id="login">
-			<section>
+			<section id="innerlogin">
 				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
 				<hr>
 				<form>
-				<label>E-mail</label>
-				<input type="email" size="50" />
-				</br>
-				<label>Passwoord</label>
-				<input type="password size="50"/>
+					<label>E-mail</label>
+					<input type="email" size="50" />
+					<label>Passwoord</label>
+					<input type="password size="50>
+					<input id="buttonlogin" type="submit" value="login"/>
 				</form>
 			</section>
 		</section>
