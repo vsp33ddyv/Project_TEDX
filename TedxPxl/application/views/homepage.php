@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>TedPxl</title>
-		<meta charset="UTF-8" />
-		<link href="<?= base_url();?>assets/css/Opmaalx.css" rel="stylesheet" type="text/css" />
-		<link href="<?= base_url();?>assets/css/login.css" rel="stylesheet" type="text/css" />
-		<!-- css werkt nier, vindt map niet-->
-		<script></script>
-	</head>
-	
 	<body>
+	<section id="login">
+			<section id="innerlogin">
+				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
+				<hr>
+				<form>
+					<label>E-mail</label>
+					<input type="email" size="50" />
+					<label>Passwoord</label>
+					<input type="password size="50>
+					<input id="buttonlogin" type="submit" value="login"/>
+				</form>
+			</section>
+		</section>
 	<div>
 		<header>
 			<img id="logo" src="assets/img/logo.png" alt="logo"/>
@@ -33,39 +37,21 @@
 					<a href="https://twitter.com/"><img src="assets/img/twittlogo.png" alt="twitterlogo"/></a>
 			</nav>
 		</div>
-		<section id="login">
-			<section id="innerlogin">
-				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
-				<hr>
-				<form>
-					<label>E-mail</label>
-					<input type="email" size="50" />
-					<label>Passwoord</label>
-					<input type="password size="50>
-					<input id="buttonlogin" type="submit" value="login"/>
-				</form>
-			</section>
-		</section>
+		
 	<div id="frame">
 		<div id="innerbalk">
 			<nav id="innernav">
 				<a class="innerlinks" href="">nl </a>||
 				<a class="innerlinks" href="">eng</a>
 				<a id="breadcrumbs" href="">breadcrumbs</a>
-				<a id="loginlink" href="">log in</a>
+				<a id="loginlink" href='#' onclick='overlay()'>log in</a>
 			</nav>
 		</div>
 		<!-- midden scherm 	-->
 			<iframe>
 			</iframe>
 		</div>
-			<footer>
-			&copy;Britt Nida Julio Jasper
-		</footer>
 		
 
-	</body>
-	
-	
-	
+	</body>	
 </html>
