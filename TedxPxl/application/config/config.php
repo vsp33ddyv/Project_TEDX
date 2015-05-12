@@ -17,7 +17,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
+<<<<<<< .mine
+$config['base_url'] = 'http://localhost/1.2TINQ/Project_TEDX/trunk/TedxPxl/';
+=======
 $config['base_url'] = 'http://localhost/xampp/TedxPxlProject/trunk/TedxPxl';
+>>>>>>> .r65
 
 /*
 |--------------------------------------------------------------------------
