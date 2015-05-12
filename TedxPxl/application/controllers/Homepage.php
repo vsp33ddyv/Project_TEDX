@@ -5,7 +5,6 @@ class Homepage extends CI_Controller {
 	public function index(){
 		$this->home();
 		$this->load->database();
-		
 	}
 	
 	public function home(){

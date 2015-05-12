@@ -14,6 +14,7 @@
 				</form>
 			</section>
 		</section>
+	<div id="achtergrond">
 	<div>
 		<header>
 			<img id="logo" src="assets/img/logo.png" alt="logo"/>
@@ -38,20 +39,20 @@
 			</nav>
 		</div>
 		
-	<div id="frame">
-		<div id="innerbalk">
-			<nav id="innernav">
-				<a class="innerlinks" href="">nl </a>||
-				<a class="innerlinks" href="">eng</a>
-				<a id="breadcrumbs" href="">breadcrumbs</a>
-				<a id="loginlink" href='#' onclick='overlay()'>log in</a>
-			</nav>
+		<div id="frame">
+			<div id="innerbalk">
+				<nav id="innernav">
+					<a class="innerlinks" href="">nl </a>||
+					<a class="innerlinks" href="">eng</a>
+					<a id="breadcrumbs" href="">breadcrumbs</a>
+					<a id="loginlink" href='#' onclick='return clicker();'>log in</a>
+				</nav>
+			</div>
+			<!-- midden scherm 	-->
+				<iframe>
+				</iframe>
 		</div>
-		<!-- midden scherm 	-->
-			<iframe>
-			</iframe>
-		</div>
-		
-
+	</div>
 	</body>	
+	<div id="displaybox" style="display: none;"></div>
 </html>
