@@ -45,7 +45,7 @@
 					<a class="innerlinks" href="">nl </a>||
 					<a class="innerlinks" href="">eng</a>
 					<a id="breadcrumbs" href="">breadcrumbs</a>
-					<a id="loginlink" href='#' onclick='overlay();'>log in</a>
+					<a id="loginlink" href='login.php' onclick='overlay();'>log in</a>
 				</nav>
 			</div>
 			<!-- midden scherm 	-->
