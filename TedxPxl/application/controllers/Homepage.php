@@ -13,4 +13,5 @@ class Homepage extends CI_Controller {
 		$this->load->view("footer");
 		$this->load->database();
 	}
+	
 }
