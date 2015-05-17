@@ -128,17 +128,7 @@ a.hoofdlink:active{
 a.innerlinks:active{
 	font-weight:bold;
 }
-.overlayss{
-	width:1000px;
-	height:1000px;
-	opacity: 0.4;
-    position:absolute;
-    top:0;
-    left:0;
-    background-color: black;
-    width: 100%;
-	z-index: 5000;
-}
+
 
 
 

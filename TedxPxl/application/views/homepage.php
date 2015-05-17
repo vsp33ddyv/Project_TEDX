@@ -6,11 +6,11 @@
 				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
 				<hr>
 				<form>
-					<label>E-mail</label>
-					<input type="email" size="50" />
-					<label>Passwoord</label>
-					<input type="password size="50>
+					<input class="invoer" type="email" size="30" placeholder="E-mail"/>
+					<input class="invoer" type="password" size="30" placeholder="Paswoord" />
 					<input id="buttonlogin" type="submit" value="login"/>
+					<a id="facebooklogin">facebooklogin</a>
+					<a id="googlelogin">google+ login</a>
 				</form>
 			</section>
 		</section>
