@@ -14,6 +14,8 @@
 				</form>
 			</section>
 		</section>
+		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'"
+    href="javascript:void(0)"></div>
 	<div id="achtergrond">
 	<div>
 		<header>
@@ -45,7 +47,9 @@
 					<a class="innerlinks" href="">nl </a>||
 					<a class="innerlinks" href="">eng</a>
 					<a id="breadcrumbs" href="">breadcrumbs</a>
-					<a id="loginlink" href='login.php' onclick='overlay();'>log in</a>
+					<a id="loginlink" onclick="document.getElementById('login').style.display='block';document.getElementById('fade').style.display='block'"
+						href="javascript:void(0)">log in</a>
+					
 				</nav>
 			</div>
 			<!-- midden scherm 	-->
