@@ -9,11 +9,11 @@
 					<input class="invoer" type="email" size="30" placeholder="E-mail"/>
 					<input class="invoer" type="password" size="30" placeholder="Paswoord" />
 					<input id="buttonlogin" type="submit" value="login"/>
-					<a id="facebooklogin">facebooklogin</a>
+					<a id="facebooklogin">facebook login</a>
 					<a id="googlelogin">google+ login</a>
 				</form>
 			</section>
-		</section>
+	</section>
 		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'"
     href="javascript:void(0)"></div>
 	<div id="achtergrond">
@@ -49,7 +49,6 @@
 					<a id="breadcrumbs" href="">breadcrumbs</a>
 					<a id="loginlink" onclick="document.getElementById('login').style.display='block';document.getElementById('fade').style.display='block'"
 						href="javascript:void(0)">log in</a>
-					
 				</nav>
 			</div>
 			<!-- midden scherm 	-->
