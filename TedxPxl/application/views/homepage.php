@@ -57,5 +57,4 @@
 		</div>
 	</div>
 	</body>	
-	<div id="displaybox" style="display: none;"></div>
 </html>

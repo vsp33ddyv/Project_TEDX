@@ -11,7 +11,7 @@ header{
 }
 
 iframe{
-	position:relative;
+	position:absolute;
 	margin-top:0.5%;
 	width:100%;
 	height:448px;
@@ -35,11 +35,12 @@ iframe{
 }
 
 #frame{
-	position:relative;
+	position:absolute;
 	float:center;
 	margin-left:16%;
 	margin-right:10%;
 	height:100%;
+	width:73%;
 }
 #hoofdnav{
 	display: inline-block;
@@ -94,7 +95,7 @@ iframe{
 	float:right;
 	display:block;
 	margin-top:4%;
-	margin-right:7%;
+	margin-left:2%;
 }
 #logonav{
 	width:28px;
@@ -136,11 +137,17 @@ a.innerlinks:active{
 
 .calendar{
 		font-family: Arial; font-size:12px;
-	}
-	table.calendar{
+		position:absolute;
+		float:left;
+		margin-top:2%;
+		margin-left:5%;
+}
+
+table.calendar{
 		margin: auto; border-collapse: collapse;
-	}
-	.calendar .days td{
+}
+
+.calendar .days td{
 		width: 20px; 
 		height:20px; 
 		padding: 4px;
@@ -148,13 +155,15 @@ a.innerlinks:active{
 		vertical-align: top;
 		background-color: white;
 	}
-	.calendar .days td:hover{
+	
+.calendar .days td:hover{
 		background-color: #f02727;
-	}
-	.calendar .highlight{
+}
+
+.calendar .highlight{
 		font-weight: bold;
 		color: #f02727;
-	}
+}
 
 
 

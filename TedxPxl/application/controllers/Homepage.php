@@ -10,8 +10,6 @@ class Homepage extends CI_Controller {
 	public function home(){
 		$this->load->view("header");
 		$this->load->view("homepage");
-		$this->load->view("footer");
-		$this->load->database();
 		$this->load->model('Mycal_model');
 		
 		if($this->input->post('day')){
@@ -19,6 +17,9 @@ class Homepage extends CI_Controller {
 		}
 		$data['calendar'] = $this->Mycal_model->generate();
 		$this->load->view('mycal',$data);
+		$this->load->view("footer");
+		$this->load->database();
+		
 		
 	}
 	
