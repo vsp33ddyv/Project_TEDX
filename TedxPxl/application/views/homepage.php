@@ -30,9 +30,7 @@
 			<input id="search" type="text"  autocomplete="on" />
 			<img src="assets/img/search.png" alt="searchlogo">
 		</header>
-		<div id="kalender">
-			<p>hier komt kalender?</p>
-		</div>
+		
 		<div id="social">
 			<nav id="logonav">
 					<a href="https://www.facebook.com/"><img src="assets/img/fbRed.png" alt="facebooklogo"/>
@@ -51,6 +49,8 @@
 						href="javascript:void(0)">log in</a>
 				</nav>
 			</div>
+			
+				
 			<!-- midden scherm 	-->
 				<iframe>
 				</iframe>

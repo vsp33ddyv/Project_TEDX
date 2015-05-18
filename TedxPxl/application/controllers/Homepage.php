@@ -12,7 +12,20 @@ class Homepage extends CI_Controller {
 		$this->load->view("homepage");
 		$this->load->view("footer");
 		$this->load->database();
+		$this->load->model('Mycal_model');
+		
+		if($this->input->post('day')){
+		$this->Mycal_model->add_calendar_data();
+		}
+		$data['calendar'] = $this->Mycal_model->generate();
+		$this->load->view('mycal',$data);
+		
 	}
+	
+	function display(){
+		
+	}
+	
 	public function form_helper(){
 		$this->load->helper('url');
 		$this->load->helper('form');

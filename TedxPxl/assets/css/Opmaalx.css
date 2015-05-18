@@ -134,7 +134,27 @@ a.innerlinks:active{
 	font-weight:bold;
 }
 
-
+.calendar{
+		font-family: Arial; font-size:12px;
+	}
+	table.calendar{
+		margin: auto; border-collapse: collapse;
+	}
+	.calendar .days td{
+		width: 20px; 
+		height:20px; 
+		padding: 4px;
+		border: 1px solid #f02727;
+		vertical-align: top;
+		background-color: white;
+	}
+	.calendar .days td:hover{
+		background-color: #f02727;
+	}
+	.calendar .highlight{
+		font-weight: bold;
+		color: #f02727;
+	}
 
 
 
