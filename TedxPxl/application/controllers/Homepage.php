@@ -23,11 +23,10 @@ class Homepage extends CI_Controller {
 		$this->load->helper('form');
 		
 		
-		if($this->input->post('day')){
-		$this->Mycal_model->add_calendar_data();
-		}
-		$data['calendar'] = $this->Mycal_model->generate();
+		$data['calendar'] = $this->Mycal_model->generate($year = null, $month = null);
 		$this->load->view('mycal',$data);
+		
+
 		$this->load->view("footer");
 		$this->load->database();
 		$this->load->database();	
@@ -61,9 +60,17 @@ class Homepage extends CI_Controller {
 		}
 			function display(){
 		$this->load->model('Mycal_model');	
-		if($this->input->post('day')){
-		$this->Mycal_model->add_calendar_data(		
-		);
+		if(!$year){
+		$year = date('Y');
+		}
+		if(!$month){
+		$month = date('M');
+		}
+		if($day = $this->input->post('day')){
+			$this->mycal_model->add_calendar_data(
+			"$year-$month-$day", //$datum
+			$this->input->post('data')
+			);
 		}
 }
 }
