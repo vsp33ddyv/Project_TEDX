@@ -48,8 +48,22 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
 		$(document).ready(function(){
 			$('.calendar .day').click(function(){
 			day_num = $(this).find('.day_num').html(); // checken welke dag geselecteerd is.
-			day_data = prompt('Geef een event in: ');
-
+			
+			day_data = prompt('Geef een event in: ', $(this).find('.content').html(), 'nog ene');
+			if(day_data != null){
+			$.ajax({
+				url:window.location,
+				type: 'POST',
+				data: {
+						day: day_num,
+						data: day_data
+				},
+				success: function(msg){
+				location.reload();
+				}
 			});
+			}
+			
+		});
 		});
 	</script>
