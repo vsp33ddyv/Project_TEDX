@@ -1,4 +1,4 @@
-<<<<<<< .mine
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,8 +42,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
 
 </head>
 <body>
-=======
->>>>>>> .r95
+
 	<?php echo $calendar; ?>
 	<script type="text/javascript">
 		$(document).ready(function(){
