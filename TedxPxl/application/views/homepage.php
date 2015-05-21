@@ -20,6 +20,8 @@
 		
 		<section id="registratie">
 			<section>
+				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
+				<hr>
 				<?php echo form_open("user/registration"); ?>
 					<p>
 						<label>User name:</label>
@@ -31,9 +33,13 @@
 					</p>
 					<p>
 						<label>Paswoord: </label>
-						<input type="password" class="invoer" name="password" placeholder="Passwoord" value=""<?php echo set_value('email_address'); ?> />
+						<input type="password" class="invoer" name="password" placeholder="Paswoord" value=""<?php echo set_value('password'); ?> />
 					</p>
-					<input />
+					<p>
+						<label>Bevestig paswoord: </label>
+						<input type="password" class="invoer" name="con_password" placeholder="CBevestig paswoord" value=""<?php echo set_value('con_password'); ?> />
+					</p>
+					<input type="submit" Value="Registreer je"/>
 				<?php echo form_close(); ?>
 			</section>
 		</section>
