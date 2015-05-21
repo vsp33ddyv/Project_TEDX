@@ -44,6 +44,8 @@
 			</section>
 		</section>
 		
+		
+		
 		<!--<div class="fade" onclick="document.getElementById('registratie').style.display='none';document.getElementById('fade').style.display='none'"
 				href="javascript:void(0)">
 		</div> -->
