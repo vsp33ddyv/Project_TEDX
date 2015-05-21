@@ -48,7 +48,7 @@ src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
 		$(document).ready(function(){
 			$('.calendar .day').click(function(){
 			day_num = $(this).find('.day_num').html(); // checken welke dag geselecteerd is.
-			day_data = prompt('Enter Stuff');
+			day_data = prompt('Geef een event in: ');
 
 			});
 		});
