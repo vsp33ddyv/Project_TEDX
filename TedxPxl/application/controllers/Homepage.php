@@ -59,4 +59,11 @@ class Homepage extends CI_Controller {
 				$this->load->view('view_form_helper',$data);
 			}
 		}
+			function display(){
+		$this->load->model('Mycal_model');	
+		if($this->input->post('day')){
+		$this->Mycal_model->add_calendar_data(		
+		);
+		}
+}
 }
