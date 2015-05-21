@@ -32,7 +32,7 @@
                         <li><button id="btn-new-thread" class="btn btn-primary btn-mini">New Thread</button></li>
                     </ul>
                     <ul class="nav pull-right">                        
-                        <?php if ($this->session->userdata('cibb_logged_in') != 1): ?>
+                        <?php if ($this->session->userdata('TedxPxl_logged_in') != 1): ?>
                         <li class="divider-vertical"></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
