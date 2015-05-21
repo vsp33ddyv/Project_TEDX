@@ -75,14 +75,6 @@ iframe{
 	margin-left:5%;
 }
 
-#loginlink{
-	position:relative;
-	float:right;
-	color: white;
-	font-weight:bold;
-	margin-right:2%;
-}
-
 #kalender{
 	position:absolute;
 	float:left;
@@ -100,6 +92,15 @@ iframe{
 #logonav{
 	width:28px;
 	display:block;
+}
+
+
+.loginlink{
+	position:relative;
+	float:right;
+	color: white;
+	font-weight:bold;
+	margin-right:2%;
 }
 
 .hoofdlink{

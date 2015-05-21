@@ -5,24 +5,19 @@
 			<section id="innerlogin">
 				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
 				<hr>
-				 <?php 
-					
-					echo form_open('login/validate_credentials');
-					echo form_input('username', 'Username');
-					echo form_password('password', 'Password');
-					echo form_submit('submit', 'Login');
-					echo anchor('login/signup', 'Create Account');
-					echo form_close();
-				?>
-						<!--
-						<form>
-						<input class="invoer" type="email" size="30" placeholder="E-mail"/>
-						<input class="invoer" type="password" size="30" placeholder="Paswoord" />
+				 <?php echo form_open('user/login'); ?>
+						
+						<input class="invoer" type="email" size="30" placeholder="E-mail" name="email"/>
+						<input class="invoer" type="password" size="30" placeholder="Paswoord" name="pass"/>
 						<input id="buttonlogin" type="submit" value="login" name="submit"/>
 						<a id="facebooklogin">facebook login</a>
 						<a id="googlelogin">google+ login</a>
-						</form>-->
+				<?php echo form_close(); ?>
 			</section>
+	</section>
+	<section>
+		<section>
+		</section>
 	</section>
 		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'"
     href="javascript:void(0)"></div>
@@ -51,11 +46,11 @@
 		<div id="frame">
 			<div id="innerbalk">
 				<nav id="innernav">
-					<a class="innerlinks" href="">nl </a>||
-					<a class="innerlinks" href="">eng</a>
+					<a class="loginlink" href="#">Registreer</a>
 					<a id="breadcrumbs" href="">breadcrumbs</a>
-					<a id="loginlink" onclick="document.getElementById('login').style.display='block';document.getElementById('fade').style.display='block'"
+					<a class="loginlink" onclick="document.getElementById('login').style.display='block';document.getElementById('fade').style.display='block'"
 						href="javascript:void(0)">log in</a>
+					
 				</nav>
 			</div>
 			
