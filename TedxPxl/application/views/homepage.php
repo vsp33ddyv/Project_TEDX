@@ -21,8 +21,8 @@
 		<header>
 			<img id="logo" src="assets/img/logo.png" alt="logo"/>
 			<nav id="hoofdnav">
-				<a class="hoofdlink" href="http://www.google.be">Home</a>
-				<a class="hoofdlink" href="http://www.google.be">Events</a>
+				<a target="kader" class="hoofdlink" href="Homepage/view_list("home_view")">Home</a>
+				<a class="hoofdlink" href="Homepage/view_list("events_view")">Events</a>
 				<a class="hoofdlink" href="http://www.google.be">Forum</a>
 				<a class="hoofdlink" href="http://www.google.be">About</a>
 				<a class="hoofdlink" href="http://www.google.com">Contact</a>
@@ -30,7 +30,6 @@
 			<input id="search" type="text"  autocomplete="on" />
 			<img src="assets/img/search.png" alt="searchlogo">
 		</header>
-		
 		<div id="social">
 			<nav id="logonav">
 					<a href="https://www.facebook.com/"><img src="assets/img/fbRed.png" alt="facebooklogo"/>
@@ -52,8 +51,7 @@
 			
 				
 			<!-- midden scherm 	-->
-				<iframe>
-				</iframe>
+			<!--	<iframe src="home_view.php" id="kader"></iframe> -->
 		</div>
 	</div>
 	</body>	
