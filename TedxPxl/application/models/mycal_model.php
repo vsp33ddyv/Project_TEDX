@@ -99,33 +99,32 @@ function add_calendar_data($datum,
 							$locatie,
 							$publiek,
 							$event_id){
-	if($this-> db-> select('event_id')-> from('kalender')
+	if($this-> db-> select('event_id')-> from('tedxpxl'.'kalender')
 	-> where('event_id', $event_id)->count_all_results())
 	{
 		$this->db->where('event_id', $event_id)
-		->update('kalender', array(
-				    'datum' => $datum,
-					'beschrijving' => $beschrijving,
-					'details_event' => $details_event,
-					'start_uur' => $start_uur,
-					'eind_uur' => $eind_uur,
-					'locatie' => $locatie,
-					'publiek' => $publiek,
-					'event_id' => $event_id
+		->update('tedxpxl'.'kalender', array(
+			'event_id' => $event_id,
+			'beschrijving' => $beschrijving,
+			'datum' => $datum,
+			'locatie' => $locatie,
+			'start_uur' => $start_uur,
+			'eind_uur' => $eind_uur,
+			'publiek' => $publiek,
+			'details_event' => $details_event
 		));	
 	}else{
-		$this->db->insert('kalender',array(
-		'datum' => $datum,
+		$this->db->insert('tedxpxl'.'kalender',array(
+		'event_id' => $event_id,
 		'beschrijving' => $beschrijving,
-		'details_event' => $details_event,
+		'datum' => $datum,
+		'locatie' => $locatie,
 		'start_uur' => $start_uur,
 		'eind_uur' => $eind_uur,
-		'locatie' => $locatie,
 		'publiek' => $publiek,
-		'event_id' => $event_id
+		'details_event' => $details_event
 	));	
-	}
-							
-								
+	}						
+	
 							}
 }
