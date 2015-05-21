@@ -8,7 +8,7 @@ class Mycal_model extends CI_Model{
 		$this->conf = array(
 		/*'start_day' => 'monday',*/
 		'show_next_prev' => true,
-		'next_prev_url'  =>  base_url(). 'mycal/display/',
+		'next_prev_url'  =>  base_url().'Homepage/display/',
 		'start_day'    => strtolower(date('l'))
 		);
 		
@@ -74,7 +74,6 @@ class Mycal_model extends CI_Model{
 										$this->uri->segment(4),
 										$events);
 		$events = $this->get_calendar_data();
-		
 	}
 
 
