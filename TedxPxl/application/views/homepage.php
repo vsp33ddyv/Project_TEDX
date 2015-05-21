@@ -54,7 +54,7 @@
 			<nav id="hoofdnav">
 				<a target="kader" class="hoofdlink" href="Homepage/view_list("home_view")">Home</a>
 				<a class="hoofdlink" href="Homepage/view_list("events_view")">Events</a>
-				<a class="hoofdlink" href="http://www.google.be">Forum</a>
+				<a class="hoofdlink" href="<?php echo site_url('forum')">Forum</a>
 				<a class="hoofdlink" href="http://www.google.be">About</a>
 				<a class="hoofdlink" href="http://www.google.com">Contact</a>
 			</nav>
