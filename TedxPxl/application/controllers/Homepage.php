@@ -2,16 +2,26 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Homepage extends CI_Controller {
+	
+	function __construct()
+		{
+			parent::__construct();
+		}
+	
 	public function index(){
 		$this->home();
 		$this->load->database();
 	}
+	
+	
 	
 	public function home(){
 		$this->load->view("header");
 		$this->load->view("homepage");
 		$this->load->model("Mycal_model");
 		$this->view_list("home_view");
+		$this->load->helper('form');
+		
 		
 		if($this->input->post('day')){
 		$this->Mycal_model->add_calendar_data();
@@ -20,6 +30,7 @@ class Homepage extends CI_Controller {
 		$this->load->view('mycal',$data);
 		$this->load->view("footer");
 		$this->load->database();
+		$this->load->database();	
 	}
 	
 	function view_list($page){

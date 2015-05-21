@@ -5,13 +5,23 @@
 			<section id="innerlogin">
 				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
 				<hr>
-				<form>
-					<input class="invoer" type="email" size="30" placeholder="E-mail"/>
-					<input class="invoer" type="password" size="30" placeholder="Paswoord" />
-					<input id="buttonlogin" type="submit" value="login"/>
-					<a id="facebooklogin">facebook login</a>
-					<a id="googlelogin">google+ login</a>
-				</form>
+				 <?php 
+					
+					echo form_open('login/validate_credentials',);
+					echo form_input('username', 'Username');
+					echo form_password('password', 'Password');
+					echo form_submit('submit', 'Login');
+					echo anchor('login/signup', 'Create Account');
+					echo form_close();
+				?>
+						<!--
+						<form>
+						<input class="invoer" type="email" size="30" placeholder="E-mail"/>
+						<input class="invoer" type="password" size="30" placeholder="Paswoord" />
+						<input id="buttonlogin" type="submit" value="login" name="submit"/>
+						<a id="facebooklogin">facebook login</a>
+						<a id="googlelogin">google+ login</a>
+						</form>-->
 			</section>
 	</section>
 		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'"
