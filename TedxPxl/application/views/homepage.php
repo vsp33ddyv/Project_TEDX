@@ -5,7 +5,7 @@
 			<section id="innerlogin">
 				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
 				<hr>
-				 <?php echo form_open('user/login'); ?>
+				 <?php echo form_open("user/login"); ?>
 						<input class="invoer" type="email" size="30" placeholder="E-mail" name="email"/>
 						<input class="invoer" type="password" size="30" placeholder="Paswoord" name="pass"/>
 						<input id="buttonlogin" type="submit" value="login" name="submit"/>
@@ -14,16 +14,34 @@
 				<?php echo form_close(); ?>
 			</section>
 	</section>
-	<section id="registratie">
-		<section>
-				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
-				<hr>
-				
+		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'"
+				href="javascript:void(0)">
+		</div>
+		
+		<section id="registratie">
+			<section>
+				<?php echo form_open("user/registration"); ?>
+					<p>
+						<label>User name:</label>
+						<input type="text" class="invoer" name="user_name" placeholder="Username" value=""<?php echo set_value('user_name'); ?> />
+					</p>
+					<p>
+						<label>E-mail: </label>
+						<input type="email" class="invoer" name="email_address" placeholder="E-mail" value=""<?php echo set_value('email_address'); ?> />
+					</p>
+					<p>
+						<label>Paswoord: </label>
+						<input type="password" class="invoer" name="" placeholder="E-mail" value=""<?php echo set_value('email_address'); ?> />
+					</p>
+					<input />
+				<?php echo form_close(); ?>
+			</section>
 		</section>
-	</section>
-		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none';document.getElementById('registratie').style.display='none'"
-    href="javascript:void(0)"></div>
-	<div id="achtergrond">
+		
+		<div class="fade" onclick="document.getElementById('registratie').style.display='none';document.getElementById('fade').style.display='none'"
+				href="javascript:void(0)">
+		</div>
+		
 	<div>
 		<header>
 			<img id="logo" src="assets/img/logo.png" alt="logo"/>
@@ -37,6 +55,7 @@
 			<input id="search" type="text"  autocomplete="on" />
 			<img src="assets/img/search.png" alt="searchlogo">
 		</header>
+		
 		<div id="social">
 			<nav id="logonav">
 					<a href="https://www.facebook.com/"><img src="assets/img/fbRed.png" alt="facebooklogo"/>
@@ -61,6 +80,6 @@
 			<!-- midden scherm 	-->
 			<!--	<iframe src="home_view.php" id="kader"></iframe> -->
 		</div>
-	</div>
+	
 	</body>	
 </html>
