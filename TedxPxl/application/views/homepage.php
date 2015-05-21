@@ -6,7 +6,6 @@
 				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
 				<hr>
 				 <?php echo form_open('user/login'); ?>
-						
 						<input class="invoer" type="email" size="30" placeholder="E-mail" name="email"/>
 						<input class="invoer" type="password" size="30" placeholder="Paswoord" name="pass"/>
 						<input id="buttonlogin" type="submit" value="login" name="submit"/>
@@ -15,11 +14,14 @@
 				<?php echo form_close(); ?>
 			</section>
 	</section>
-	<section>
+	<section id="registratie">
 		<section>
+				<img id="logo" src="assets/img/logoPopup.png" alt="logo"/>
+				<hr>
+				
 		</section>
 	</section>
-		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'"
+		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none';document.getElementById('registratie').style.display='none'"
     href="javascript:void(0)"></div>
 	<div id="achtergrond">
 	<div>
@@ -46,7 +48,8 @@
 		<div id="frame">
 			<div id="innerbalk">
 				<nav id="innernav">
-					<a class="loginlink" href="#">Registreer</a>
+					<a class="loginlink" onclick="document.getElementById('registratie').style.display='block';document.getElementById('fade').style.display='block'"
+						href="javascript:void(0)">Registreer</a>
 					<a id="breadcrumbs" href="">breadcrumbs</a>
 					<a class="loginlink" onclick="document.getElementById('login').style.display='block';document.getElementById('fade').style.display='block'"
 						href="javascript:void(0)">log in</a>
