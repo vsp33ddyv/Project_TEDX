@@ -14,7 +14,7 @@
 				<?php echo form_close(); ?>
 			</section>
 	</section>
-		<div id="fade" onclick="document.getElementById('login').style.display='none';document.getElementById('fade').style.display='none'"
+		<div id="fade" onclick="document.getElementById('login').style.display='none'; document.getElementById('registratie').style.display='none'; document.getElementById('fade').style.display='none'"
 				href="javascript:void(0)">
 		</div>
 		
@@ -31,16 +31,16 @@
 					</p>
 					<p>
 						<label>Paswoord: </label>
-						<input type="password" class="invoer" name="" placeholder="E-mail" value=""<?php echo set_value('email_address'); ?> />
+						<input type="password" class="invoer" name="password" placeholder="Passwoord" value=""<?php echo set_value('email_address'); ?> />
 					</p>
 					<input />
 				<?php echo form_close(); ?>
 			</section>
 		</section>
 		
-		<div class="fade" onclick="document.getElementById('registratie').style.display='none';document.getElementById('fade').style.display='none'"
+		<!--<div class="fade" onclick="document.getElementById('registratie').style.display='none';document.getElementById('fade').style.display='none'"
 				href="javascript:void(0)">
-		</div>
+		</div> -->
 		
 	<div>
 		<header>
