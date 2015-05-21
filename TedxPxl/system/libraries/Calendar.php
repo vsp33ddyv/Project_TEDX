@@ -287,13 +287,15 @@ class CI_Calendar {
 				if ($day > 0 && $day <= $total_days)
 				{
 					$out .= ($is_current_month === TRUE && $day == $cur_day) ? $this->replacements['cal_cell_start_today'] : $this->replacements['cal_cell_start'];
-
+					
 					if (isset($data[$day]))
 					{
 						// Cells with content
 						$temp = ($is_current_month === TRUE && $day == $cur_day) ?
+						
+						
 								$this->replacements['cal_cell_content_today'] : $this->replacements['cal_cell_content'];
-						$out .= str_replace(array('{content}', '{day}'), array($data[$day], $day), $temp);
+						$out .= str_replace(array('{content}', '{day}'), array($data[$day], $day), $temp);	
 					}
 					else
 					{
