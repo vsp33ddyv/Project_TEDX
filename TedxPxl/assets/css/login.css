@@ -31,8 +31,11 @@
     border: none;
     background-color: #ffffff;
     width: 261px;
-    height: 50%;
+    height: 55%;
     z-index: 101; 
+}
+#labelemail{
+	margin-right:5%;
 }
 #innerlogin{
 	margin:2%;

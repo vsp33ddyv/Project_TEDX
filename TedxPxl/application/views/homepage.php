@@ -24,11 +24,11 @@
 				<hr>
 				<?php echo form_open("user/registration"); ?>
 					<p>
-						<label>User name:</label>
-						<input type="text" class="invoer" name="user_name" placeholder="Username" value=""<?php echo set_value('user_name'); ?> />
+						<label>Voornaam:</label>
+						<input type="text" class="invoer" name="voornaam" placeholder="voornaam" value=""<?php echo set_value('voornaam'); ?> />
 					</p>
 					<p>
-						<label>E-mail: </label>
+						<label id="labelemail">E-mail: </label>
 						<input type="email" class="invoer" name="email_address" placeholder="E-mail" value=""<?php echo set_value('email_address'); ?> />
 					</p>
 					<p>
