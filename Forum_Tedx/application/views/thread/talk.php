@@ -72,9 +72,9 @@
             return "$difference $periods[$j] {$tense}";
         }
         ?>
-        <link rel="stylesheet" href="<?php echo base_url(); ?>resources/jquery/jwysiwyg/jquery.wysiwyg.css"/>
-        <script src="<?php echo base_url(); ?>resources/jquery/jwysiwyg/jquery.wysiwyg.js" charset="utf-8"></script>
-        <script src="<?php echo base_url(); ?>resources/jquery/jwysiwyg/controls/wysiwyg.link.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="<?php echo base_url(); ?>assets/jquery/jwysiwyg/jquery.wysiwyg.css"/>
+        <script src="<?php echo base_url(); ?>assets/jquery/jwysiwyg/jquery.wysiwyg.js" charset="utf-8"></script>
+        <script src="<?php echo base_url(); ?>assets/jquery/jwysiwyg/controls/wysiwyg.link.js" charset="utf-8"></script>
         
         <script>
             controlValue = {

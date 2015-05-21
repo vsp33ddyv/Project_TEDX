@@ -83,9 +83,9 @@
              <tr>
                 <?php foreach ($roles as $role): ?>
                 <td>
-                    <a title="edit" href="<?php echo site_url('admin/role_edit').'/'.$role['id']; ?>"><img src="<?php echo base_url(); ?>resources/icons/pencil.png"/></a> 
+                    <a title="edit" href="<?php echo site_url('admin/role_edit').'/'.$role['id']; ?>"><img src="<?php echo base_url(); ?>assets/icons/pencil.png"/></a> 
                     &nbsp;&nbsp;
-                    <a title="delete" class="del" id="role_id_<?php echo $role['id']; ?>" href="<?php echo site_url('admin/role_delete').'/'.$role['id']; ?>"><img src="<?php echo base_url(); ?>resources/icons/delete.png"/></a> 
+                    <a title="delete" class="del" id="role_id_<?php echo $role['id']; ?>" href="<?php echo site_url('admin/role_delete').'/'.$role['id']; ?>"><img src="<?php echo base_url(); ?>assets/icons/delete.png"/></a> 
                 </td>
                 <?php endforeach; ?>
             </tr>
@@ -93,9 +93,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['admin_area'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -109,9 +109,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['thread_create'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -120,9 +120,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['thread_edit'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -132,9 +132,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['thread_delete'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -148,9 +148,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['post_create'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -159,9 +159,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['post_edit'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -171,9 +171,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['post_delete'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -187,9 +187,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['role_create'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -198,9 +198,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['role_edit'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
@@ -209,9 +209,9 @@
                 <?php foreach ($roles as $role): ?>
                 <td>
                     <?php if ( $role['role_delete'] == 1 ): ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/accept.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/accept.png"/>
                     <?php else: ?>
-                    <img src="<?php echo base_url(); ?>resources/icons/stop.png"/>
+                    <img src="<?php echo base_url(); ?>assets/icons/stop.png"/>
                     <?php endif; ?>
                 </td>
                 <?php endforeach; ?>
