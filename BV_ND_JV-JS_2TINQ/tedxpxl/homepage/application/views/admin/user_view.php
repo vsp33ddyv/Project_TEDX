@@ -61,8 +61,8 @@
         <?php foreach ($users as $user): ?>
         <tr>
         <td><?php echo $user->username; ?></td>
-        <td style="text-align: center;"><a title="edit" href="<?php echo site_url('admin/user_edit').'/'.$user->id; ?>"><img src="<?php echo base_url(); ?>resources/icons/pencil.png"/></a> </td>
-        <td style="text-align: center;"><a title="delete" class="del" id="user_id_<?php echo $user->id; ?>" href="<?php echo site_url('admin/user_delete').'/'.$user->id; ?>"><img src="<?php echo base_url(); ?>resources/icons/delete.png"/></a> </td>
+        <td style="text-align: center;"><a title="edit" href="<?php echo site_url('admin/user_edit').'/'.$user->id; ?>"><img src="<?php echo base_url(); ?>assets/icons/pencil.png"/></a> </td>
+        <td style="text-align: center;"><a title="delete" class="del" id="user_id_<?php echo $user->id; ?>" href="<?php echo site_url('admin/user_delete').'/'.$user->id; ?>"><img src="<?php echo base_url(); ?>assets/icons/delete.png"/></a> </td>
         </tr>
         <?php endforeach; ?>
     </tbody>
