@@ -16,7 +16,7 @@
             <div class="navbar" id="nav">
                 <div class="navbar-inner">
                 <div class="container">
-                    <a class="brand" href="<?php echo site_url('thread'); ?>"><b>TedxPXL</b></a>
+                    <a class="brand" href= "<?php echo site_url(); ?>/../../homepage"><b>TedxPXL</b></a>
                     <div class="nav-collapse">
                     <ul class="nav">
                         <li><a href="<?php echo site_url('thread'); ?>">Home</a></li>
