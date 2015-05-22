@@ -19,7 +19,6 @@ class Homepage extends CI_Controller {
 		$this->load->view("header");
 		$this->load->view("homepage");
 		$this->load->model("Mycal_model");
-		$this->view_list("home_view");
 		$this->load->helper('form');
 		
 		

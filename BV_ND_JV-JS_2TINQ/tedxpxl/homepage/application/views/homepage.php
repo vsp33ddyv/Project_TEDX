@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<header>
+<script type="text/javascript">
+
+</script>
+</header>
 	<body>
 	<section id="login">
 			<section id="innerlogin">
@@ -54,11 +59,12 @@
 		<header>
 			<img id="logo" src="assets/img/logo.png" alt="logo"/>
 			<nav id="hoofdnav">
-				<a target="kader" class="hoofdlink" href="Homepage/view_list("home_view")">Home</a>
-				<a class="hoofdlink" href="Homepage/view_list("events_view")">Events</a>
+				<a class="hoofdlink" href="<?php $page='home_view'; ?>">Home</a>
+				<a class="hoofdlink" href="<?php $page='events_view';?>">Events</a>
+				
 				<a class="hoofdlink" href="<?php echo site_url(); ?>/../../forum">Forum</a>
-				<a class="hoofdlink" href="http://www.google.be">About</a>
-				<a class="hoofdlink" href="http://www.google.com">Contact</a>
+				<a class="hoofdlink" href="<?php $page='about_view';?>">About</a>
+				<a class="hoofdlink" href="<?php $page='contact_view';?>">Contact</a>
 			</nav>
 			<input id="search" type="text"  autocomplete="on" />
 			<img src="assets/img/search.png" alt="searchlogo">
@@ -83,7 +89,11 @@
 					
 				</nav>
 			</div>
-			
+			<div id="main_content">
+			<?php 
+			$page = 'home_view';
+			$this->load->view($page); ?>
+			</div>
 				
 			<!-- midden scherm 	-->
 			<!--	<iframe src="home_view.php" id="kader"></iframe> -->
