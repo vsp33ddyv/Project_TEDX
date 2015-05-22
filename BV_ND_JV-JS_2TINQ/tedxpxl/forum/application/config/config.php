@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/1.2TINQ/poepiie/trunk/BV_ND_JV-JS_2TINQ/tedxpxl/forum/';
+$config['base_url']	= 'http://localhost/xampp/projectx/trunk/BV_ND_JV-JS_2TINQ/tedxpxl/forum/';
 
 /*
 |--------------------------------------------------------------------------

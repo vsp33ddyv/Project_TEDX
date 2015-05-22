@@ -13,7 +13,7 @@
 				 <?php echo form_open("user/login"); ?>
 						<input class="invoer" type="email" size="30" placeholder="E-mail" name="email"/>
 						<input class="invoer" type="password" size="30" placeholder="Paswoord" name="pass"/>
-						<input id="buttonlogin" type="submit" value="login" name="submit"/>
+						<input id="buttonlogin" type="submit" value="login" name="btn-login"/>
 						<a id="facebooklogin">facebook login</a>
 						<a id="googlelogin">google+ login</a>
 				<?php echo form_close(); ?>
@@ -30,7 +30,11 @@
 				<?php echo form_open("user/registration"); ?>
 					<p>
 						<label>Voornaam:</label>
-						<input type="text" class="invoer" name="voornaam" placeholder="voornaam" value=""<?php echo set_value('voornaam'); ?> />
+						<input type="text" class="invoer" name="first_name" placeholder="voornaam" value=""<?php echo set_value('first_name'); ?> />
+					</p>
+					<p>
+						<label>Achternaam:</label>
+						<input type="text" class="invoer" name="last_name" placeholder="achternaam" value=""<?php echo set_value('last_name'); ?> />
 					</p>
 					<p>
 						<label id="labelemail">E-mail: </label>
@@ -42,9 +46,9 @@
 					</p>
 					<p>
 						<label>Bevestig paswoord: </label>
-						<input type="password" class="invoer" name="con_password" placeholder="CBevestig paswoord" value=""<?php echo set_value('con_password'); ?> />
+						<input type="password" class="invoer" name="con_password" placeholder="Bevestig paswoord" value=""<?php echo set_value('con_password'); ?> />
 					</p>
-					<input type="submit" Value="Registreer je"/>
+					<input type="submit" Value="Registreer je" id="buttonregistratie" name="btn-reg"/>
 				<?php echo form_close(); ?>
 			</section>
 		</section>
