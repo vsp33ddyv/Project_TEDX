@@ -75,8 +75,8 @@
             <a class="linkviewtip" title="Go to: <?php echo $thread->title; ?>" href="<?php echo site_url('thread/talk/'.$thread->slug); ?>"><?php echo $thread->title; ?></a>
             <span style="display:block;font-size: 10px;font-style: italic;"><?php echo $thread->cat_name; ?></span>
         </td>
-        <td style="text-align: center;"><a title="edit" href="<?php echo site_url('admin/thread_edit').'/'.$thread->id; ?>"><img src="<?php echo base_url(); ?>resources/icons/pencil.png"/></a> </td>
-        <td style="text-align: center;"><a title="delete" class="del" id="thread_id<?php echo $thread->id; ?>" href="<?php echo site_url('admin/thread_delete').'/'.$thread->id; ?>"><img src="<?php echo base_url(); ?>resources/icons/delete.png"/></a> </td>
+        <td style="text-align: center;"><a title="edit" href="<?php echo site_url('admin/thread_edit').'/'.$thread->id; ?>"><img src="<?php echo base_url(); ?>assets/icons/pencil.png"/></a> </td>
+        <td style="text-align: center;"><a title="delete" class="del" id="thread_id<?php echo $thread->id; ?>" href="<?php echo site_url('admin/thread_delete').'/'.$thread->id; ?>"><img src="<?php echo base_url(); ?>assets/icons/delete.png"/></a> </td>
         </tr>
         <?php endforeach; ?>
     </tbody>

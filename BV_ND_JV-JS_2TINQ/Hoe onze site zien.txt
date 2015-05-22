@@ -1,0 +1,24 @@
+Start XXAMP
+Start MySQL
+Maak aan database tedxpxl
+Maak aan database tedxpxl_forum
+
+In tedxpxl importeer tedxpxl.sql
+in tedxpxl_forum importeer tedxpxl_forum.sql
+
+Verander de config file in application/config/config.php
+
+verander bij homepage deze naar localhost/*u_pad*/BV_ND_JV-JS_2TINQ/tedxpxl/homepage
+verander bij forum deze naar localhost/*u_pad*/BV_ND_JV-JS_2TINQ/tedxpxl/forum
+
+Proficiat, u kan nu de site bekijken die wij met hart en ziel gemaakt hebben!
+
+PS: Mevrouw, we hebben een probleem gehad in onze groep, 1 groepslid nl: Jasper van De Weyer
+heeft helemaal niks gedaan. Hij was verantwoordelijk voor de search, zonder enige 
+communitcatie beslist hij 12 uur voor de deadline (ja dus 0:00 s'nachts) ons te 
+verwittigen dat hij het niet klaar krijgt. Dit vinden wij 3 niet kunnen, dus hopelijk
+straft u ons hier ook niet op af.
+
+Met vriendelijke groeten,
+
+Team Britt, Ni, Julio 
